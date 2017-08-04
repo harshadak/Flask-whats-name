@@ -9,7 +9,6 @@ def index():
 @app.route("/process", methods = ["POST"])
 def process():
     name = request.form["name"]
-    #print request.form.
     print name
     return redirect("/")
 
